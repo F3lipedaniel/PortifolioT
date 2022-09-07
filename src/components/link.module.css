@@ -1,0 +1,216 @@
+.link {
+position: absolute;
+width: 25rem;
+height: 25rem;
+left: 3rem;
+top: 26rem;
+
+background: #302F3D;
+box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+flex-direction: column;}
+
+.link span {
+    position: absolute;
+    height: 16px;
+    left: 8.85rem;
+    top: 1rem;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #837E9F;
+    width: 35px;
+
+}
+
+.mapPin {
+    /* map-pin */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 80px;
+    top: 392px;
+}
+
+.siteLocation {
+/* https://birobirobiro.dev */
+
+
+position: absolute;
+width: 137px;
+height: 15px;
+left: 124px;
+top: 617px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #837E9F;
+
+
+}
+.briefcasePin {
+/* briefcase */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 436px;
+}
+
+
+.githubPin {
+/* github */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 480px;
+}
+
+.globePin {
+/* globe */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 612px;
+}
+
+.linkedInPin {
+/* linkedin */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 524px;
+}
+
+.mailPin {
+/* mail */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 656px;
+}
+
+.twitterPin {
+/* twitter */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 568px;
+}
+
+.brasilText {
+/* Brasil */
+position: absolute;
+width: 35px;
+height: 16px;
+left: 124px;
+top: 396px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #837E9F;
+}
+
+.rockeseatText {
+/* Rocketseat */
+position: absolute;
+width: 64px;
+height: 15px;
+left: 124px;
+top: 440px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+/* identical to box height */
+
+color: #837E9F;
+}
+
+.githubText {
+/* birobirobiro */
+
+
+position: absolute;
+width: 74px;
+height: 16px;
+left: 124px;
+top: 484px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #837E9F;
+}
+
+.twitterText {
+/* birobirobiro */
+position: absolute;
+width: 74px;
+height: 16px;
+left: 124px;
+top: 572px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #837E9F;
+}
+
+.linkedinText {
+/* joao-inacio-neto */
+position: absolute;
+width: 109px;
+height: 16px;
+left: 124px;
+top: 528px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #837E9F;
+}
+
+.emailText {
+/* birobirobiro.dev@gmail.com */
+position: absolute;
+width: 166px;
+height: 15px;
+left: 124px;
+top: 661px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #837E9F;
+}

@@ -1,0 +1,11 @@
+.experienceBox {
+position: absolute;
+width: 25rem;
+height: 25rem;
+left: 3rem;
+top: 70rem;
+background: #302F3D;
+box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+flex-direction: column;
+}

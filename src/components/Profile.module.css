@@ -1,0 +1,57 @@
+.profile {
+position: absolute;
+width: 25rem;
+height: 21rem;
+left: 3rem;
+top: 2.5rem;
+background: #302F3D;
+box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
+border-radius: 1rem;
+flex-direction: column;
+}
+
+.profileAvatar {
+    box-sizing: border-box;
+    width: 9rem;
+    height: 9rem;
+    left: 8rem;
+    right: 8rem;
+    top: 3rem;
+    border-radius: 26rem;  
+    background: url(image.png);
+    border: 0.14rem solid #00FF00;
+    position: absolute;
+}
+
+.profile strong {
+position: absolute;
+width: 14rem;
+height: 2rem;
+left: 6.5rem;
+top: 14rem;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2rem;
+color: #837E9F;
+}
+
+.profile span {
+    position: absolute;
+    width: 9rem;
+    height: 17px;
+    left: 8.7rem;
+    top: 18rem;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    color: #837E9F;
+}
