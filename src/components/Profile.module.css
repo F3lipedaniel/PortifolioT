@@ -1,6 +1,6 @@
 .profile {
 position: absolute;
-width: 25rem;
+width: 21.75rem;
 height: 21rem;
 left: 3rem;
 top: 2.5rem;
@@ -12,13 +12,11 @@ flex-direction: column;
 
 .profileAvatar {
     box-sizing: border-box;
-    width: 9rem;
-    height: 9rem;
-    left: 8rem;
-    right: 8rem;
-    top: 3rem;
+    width: 8rem;
+    height: 8rem;
+    left: 6.875rem;
+    top: 2.18REM;
     border-radius: 26rem;  
-    background: url(image.png);
     border: 0.14rem solid #00FF00;
     position: absolute;
 }
@@ -27,8 +25,8 @@ flex-direction: column;
 position: absolute;
 width: 14rem;
 height: 2rem;
-left: 6.5rem;
-top: 14rem;
+left: 4.75rem;
+top: 11.875rem;
 
 font-family: 'Merriweather Sans';
 font-style: normal;
@@ -41,9 +39,9 @@ color: #837E9F;
 .profile span {
     position: absolute;
     width: 9rem;
-    height: 17px;
-    left: 8.7rem;
-    top: 18rem;
+    height: 1.0625rem;
+    left: 6.875rem;
+    top: 15rem;
     
     font-family: 'Merriweather Sans';
     font-style: normal;

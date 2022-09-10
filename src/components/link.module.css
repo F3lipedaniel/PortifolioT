@@ -1,7 +1,7 @@
 .link {
 position: absolute;
-width: 25rem;
-height: 25rem;
+width: 21.75rem;
+height: 21.75rem;
 left: 3rem;
 top: 26rem;
 
@@ -10,207 +10,96 @@ box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
 border-radius: 1rem;
 flex-direction: column;}
 
+
+.pin > img {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 2.5rem;
+}
+
+.mapPin {
+    /* map-pin */
+    top: 1.875rem;
+}
+
+.briefcasePin {
+    /* briefcase */
+    top: 4.625rem;
+    }
+
+.githubPin {
+    /* github */
+    top: 7.375rem;
+    
+    }
+
+.linkedinPin {
+    /* linkedin */
+    top: 10.125rem;
+    }
+    
+.twitterPin {
+    /* twitter */
+    top: 12.875rem;
+    }
+.globePin {
+    /* globe */
+    top: 15.625rem;
+    }
+
+.mailPin {
+        top: 18.375rem;
+    
+    }
+
+
 .link span {
     position: absolute;
-    height: 16px;
-    left: 8.85rem;
-    top: 1rem;
-    
+     width: 6rem;
+    height: 1.4rem;
+    left: 5.25rem;
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    
+        
     color: #837E9F;
-    width: 35px;
-
-}
-
-.mapPin {
-    /* map-pin */
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 80px;
-    top: 392px;
-}
-
-.siteLocation {
-/* https://birobirobiro.dev */
-
-
-position: absolute;
-width: 137px;
-height: 15px;
-left: 124px;
-top: 617px;
-
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-color: #837E9F;
-
-
-}
-.briefcasePin {
-/* briefcase */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 436px;
-}
-
-
-.githubPin {
-/* github */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 480px;
-}
-
-.globePin {
-/* globe */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 612px;
-}
-
-.linkedInPin {
-/* linkedin */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 524px;
-}
-
-.mailPin {
-/* mail */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 656px;
-}
-
-.twitterPin {
-/* twitter */
-position: absolute;
-width: 24px;
-height: 24px;
-left: 80px;
-top: 568px;
-}
-
+    
+    }
 .brasilText {
-/* Brasil */
-position: absolute;
-width: 35px;
-height: 16px;
-left: 124px;
-top: 396px;
+    /* Brasil */
+    
+    top: 2.125rem;
+    }
 
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-
-color: #837E9F;
-}
-
-.rockeseatText {
+.briefcaseText {
 /* Rocketseat */
-position: absolute;
-width: 64px;
-height: 15px;
-left: 124px;
-top: 440px;
-
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-
-/* identical to box height */
-
-color: #837E9F;
-}
+    top: 4.875rem;
+    }
 
 .githubText {
-/* birobirobiro */
+    top: 7.625rem;
 
-
-position: absolute;
-width: 74px;
-height: 16px;
-left: 124px;
-top: 484px;
-
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-
-color: #837E9F;
-}
-
-.twitterText {
-/* birobirobiro */
-position: absolute;
-width: 74px;
-height: 16px;
-left: 124px;
-top: 572px;
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-
-color: #837E9F;
-}
+    }
 
 .linkedinText {
-/* joao-inacio-neto */
-position: absolute;
-width: 109px;
-height: 16px;
-left: 124px;
-top: 528px;
+    top: 10.375rem;
+        
+    }
 
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
+.twitterText {
+    top: 13.125rem;
 
-color: #837E9F;
+    }
+
+
+.siteText {
+top: 15.93rem;
+
 }
 
 .emailText {
-/* birobirobiro.dev@gmail.com */
-position: absolute;
-width: 166px;
-height: 15px;
-left: 124px;
-top: 661px;
-font-family: 'Merriweather Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-color: #837E9F;
+top: 18.6875rem
 }
