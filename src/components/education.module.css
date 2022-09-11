@@ -1,0 +1,60 @@
+.educationBox {
+    position: absolute;
+    width: 21.75rem;
+    height: 25.5rem;
+    left: 3rem;
+    top: 89rem;
+    background: #302F3D;
+    box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    flex-direction: column;
+    margin-top: 1.875rem;
+    color: #837E9F;
+    }
+
+.educationBox h1 {
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
+
+.educationBox span {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #837E9F;
+}
+
+.educationHead {
+        position: absolute;
+        width: 8.8125rem;
+        height: 1.625rem;
+        left: 1.25rem;
+        top: 1.875rem;
+    
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */}
+
+.container1 {
+    width: 16.75rem ;
+    height: 15.1875rem;
+    top: 7.75rem;
+    left: 2.5rem;
+
+}
+
+.container1 div {
+    margin: 1rem;
+}        

@@ -6,6 +6,7 @@ import styles from './App.module.css';
 import './global.css';
 import { Experience } from './components/Experiences';
 import { Projects } from './components/projects';
+import { Education } from './components/Education';
 
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
         <Link/>
         <Tech/>
         <Experience/>
+        <Education/>
         <Projects/>
         </div>
     </div>

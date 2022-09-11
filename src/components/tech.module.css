@@ -1,11 +1,122 @@
 .techBox {
     position: absolute;
-    width: 25rem;
-    height: 15rem;
+    width: 21.75rem;
+    height: 10.5rem;
     left: 3rem;
-    top: 53rem;
+    top: 50rem;
     
     background: #302F3D;
     box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
-    border-radius: 1.25rem;
+    border-radius: 1rem;
+    
 }
+.techBox span {
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+
+    
+    color: #000000;
+    
+    }
+
+.techHead {
+    position: absolute;
+    width: 7.5625rem;
+    height: 1.625rem;
+    left: 1.25rem;
+    top: 1.875rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+
+
+color: #837E9F;
+}
+
+
+
+.techComponentsBox1{
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 1.875rem;
+    top: 4.75rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+    
+
+    
+}
+.techComponentsBox2{
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 8.1875rem;
+    top: 4.75rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+
+}
+.techComponentsBox3 {
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 14.5rem;
+    top: 4.75rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+}
+.techComponentsBox4 {
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 1.875rem;
+    top: 7.1875rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+
+}
+.techComponentsBox5 {
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 8.1875rem;
+    top: 7.1875rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+}
+
+.techComponentsBox6 {
+    position: absolute;
+    width: 5.375rem;
+    height: 1.5rem;
+    left: 14.5rem;
+    top: 7.1875rem;
+
+    background: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+}
+
+
+
