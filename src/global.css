@@ -1,13 +1,14 @@
-:root {
+ :root {
     --body-bg-color: #22212C;
     --text-color: #837E9F;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
     background: #22212C;
     margin: 0px;
+
   }
 
-* {
+ *{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1rem;
     margin: 0px;
@@ -16,3 +17,4 @@
     --font-weight-700: 'font-weight: 700',
     
 }
+

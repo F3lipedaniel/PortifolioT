@@ -1,24 +1,27 @@
 import { Profile } from './components/Profile'
 import { Link } from './components/link';
 import { Tech } from './components/tech';
-
-import styles from './App.module.css';
-import './global.css';
 import { Experience } from './components/Experiences';
-import { Projects } from './components/projects';
-import { Education } from './components/Education';
+import {ProjectsHead } from './components/ProjectsBox/projects';
+import { Education } from './components/Education/Education';
+import styles from './global.css';
 
 
 export function App() {
   return (
     <div>
-      <div className={styles.wrapper}>
+      <div className={styles.global}>
         <Profile/>
         <Link/>
         <Tech/>
         <Experience/>
         <Education/>
-        <Projects/>
+        <ProjectsHead/>
+
+
+
+
+
         </div>
     </div>
     

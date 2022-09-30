@@ -9,7 +9,7 @@ export function Tech () {
             
             <div className={styles.techComponentsBox1}>
                 <span>HTML</span>
-                
+
             
             </div>
             <div className={styles.techComponentsBox2}>

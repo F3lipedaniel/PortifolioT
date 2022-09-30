@@ -1,3 +1,39 @@
+.pin button {
+    position: relative;
+    background: transparent;
+    width: auto;
+    height: 1.5rem;
+    left: 1.875rem;
+    top: rem;
+    border: 0;
+    color: #837E9F;
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 4px ;
+    display: block;
+    margin-top: 22px;
+    text-align: left;
+    text-decoration: none;
+        
+}
+.anchor {
+    color: #837E9F;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+
+ }
+ .anchor:hover {
+    color: #675AAC;
+    text-align:center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    transition: all .2s ease-in-out
+
+}
+
 .link {
 position: absolute;
 width: 21.75rem;
@@ -8,98 +44,60 @@ top: 26rem;
 background: #302F3D;
 box-shadow: 0.14rem 0.14rem 0.14rem 0.14rem rgba(0, 0, 0, 0.2);
 border-radius: 1rem;
-flex-direction: column;}
-
-
-.pin > img {
-    position: absolute;
-    width: 1.5rem;
-    height: 1.5rem;
-    left: 2.5rem;
+flex-direction: column;
 }
-
-.mapPin {
-    /* map-pin */
-    top: 1.875rem;
-}
-
-.briefcasePin {
-    /* briefcase */
-    top: 4.625rem;
-    }
-
-.githubPin {
-    /* github */
-    top: 7.375rem;
-    
-    }
-
-.linkedinPin {
-    /* linkedin */
-    top: 10.125rem;
-    }
-    
-.twitterPin {
-    /* twitter */
-    top: 12.875rem;
-    }
-.globePin {
-    /* globe */
-    top: 15.625rem;
-    }
-
-.mailPin {
-        top: 18.375rem;
-    
-    }
 
 
 .link span {
     position: absolute;
-     width: 6rem;
+     width: auto;
     height: 1.4rem;
-    left: 5.25rem;
+    left: 5rem;
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 10px;
     line-height: 16px;
-        
+    display: flex;
+    flex-direction: column;
     color: #837E9F;
+    cursor: pointer;
+    margin:0px;
+    padding:0px;
     
     }
 .brasilText {
     /* Brasil */
+    top:1.7rem
     
-    top: 2.125rem;
     }
 
 .briefcaseText {
 /* Rocketseat */
-    top: 4.875rem;
+    top: 4.6rem;
     }
 
 .githubText {
-    top: 7.625rem;
+    top: 7.5rem;
 
     }
 
 .linkedinText {
-    top: 10.375rem;
+    top: 10.35rem;
         
     }
 
 .twitterText {
-    top: 13.125rem;
+    top: 13.215rem;
 
     }
 
 
 .siteText {
-top: 15.93rem;
+top: 16.1rem;
 
 }
 
-.emailText {
-top: 18.6875rem
+.meetText {
+top: 19rem
 }

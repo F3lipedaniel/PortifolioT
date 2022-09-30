@@ -51,6 +51,7 @@ color: #837E9F;
     height: 1.5rem;
     left: 1.875rem;
     top: 4.75rem;
+    display: block;
 
     background: #CB92B1;
     border-radius: 1.875rem;
@@ -59,6 +60,11 @@ color: #837E9F;
 
     
 }
+
+.techComponentsBox1 span {
+
+}
+
 .techComponentsBox2{
     position: absolute;
     width: 5.375rem;
