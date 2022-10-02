@@ -4,32 +4,38 @@ import { Star,GitBranch, FolderSimple, Circle } from 'phosphor-react';
 
 const boxes = [
     {
+        key: 1,
         link:'https://github.com/F3lipedaniel/NLW_IGNITE',
         title: 'NLW eSports',
         description: 'Aplicação desenvolvida em ReactJs E ReactNative que publica anúncios e escolhe parceiros para jogar',
     },
     {
+        key: 2,
         link:'https://github.com/F3lipedaniel/redeSocial',
         title: 'Rede social',
         description: 'Página que simula uma rede social feita em ReactJs no curso ignite da Rocketseat',
     },
     {
+        key: 3,
         link: 'https://site.deliverydireto.com.br/',
         title: 'Delivery Direto (Grupo LOCAWEB)',
         description: 'Analista de processos, atualização e transferência de aplicativos, apresentação de métricas, resultados e metas para líderes e colaboradores.',
     },
     {
+        key: 4,
         link:'https://www.linkedin.com/posts/felipe-daniel-20b7221a4_software-negaejcios-treinamento-activity-6911396401587314688-N4IZ?utm_source=share&utm_medium=member_desktop',
         title: 'Sayonara Gourmet',
         description: 'Supervisor de T.I | Implementação de sistemas e processos, manutenção diária de hardwares, atualização de sistemas, treinamento de colaboradores e processos a serem implementados, documentação  e infraestrutura.',
 
     },
     {
+        key: 5,
         link:'https://github.com/F3lipedaniel/Calcula-comissao',
         title: 'Calculadora de comissão',
         description: 'Calculadora que simular a porcentagem ganha por cada colaboradores de acordo com a quantidade vendida',
     },
     {
+        key: 6,
         link:'',
         title: 'S.A assessoria e contabilidade',
         description: 'Rotinas trabalhistas de admissão, demissão, folha de pagamento, rescisão e afins.',
@@ -46,12 +52,12 @@ export function ProjectsHead ( ) {
             
             </div>
                 {
-                 boxes.map(i => (
+                 boxes.map((i)  => (
                     <ProjectBox
+                    key={i.key}
                     link={i.link}
                     title={i.title}
                     description={i.description}
-                    
                     />
                     
                  )
@@ -62,7 +68,7 @@ export function ProjectsHead ( ) {
     )
 }
 
-export function ProjectBox ({ title, description, link}) {
+export function ProjectBox ({link, title, description, }) {
     return (                
     <aside className={styles.projectsBox}>
         <div >

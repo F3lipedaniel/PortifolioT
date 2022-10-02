@@ -11,10 +11,9 @@
 @media (max-width:768px) {
     html {
         font-size: 81.5%;
-        
+        .menu { width:600px; } 
     }
     .wrapper {
         grid-template-columns: 1fr;
     }
 }
-
